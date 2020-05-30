@@ -1,3 +1,41 @@
-My name is Ritik Agarwal.
-I am from Rourkela .
-Currently I am persueing my Bachler Of Technology in VEER SURENDRA SAI UNIVERSITY OF TECHNOLOGY.
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/androidparty" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="From Ritik Agarwal"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30dp"
+        android:padding="30dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:fontFamily="casual"
+        android:text="To Sraddha"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+
+</RelativeLayout>
